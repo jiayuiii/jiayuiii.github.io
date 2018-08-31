@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url('../img/bgi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    position: relative;
+    margin: 16% auto 0;
+    width: 400px;
+    height: 300px;
+
+}
+
+.wrap{
+    margin: 50px auto 0;
+}
+.wrap h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color:  rgba(255, 255, 255, .7);
+    font-size: 50px;
+}
+input{
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    height: 20px;
+    padding: 10px 8px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    transition: .3s;
+    font-size: 14px;
+    color:  rgba(255, 255, 255, .7);
+    width: 284px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.codeWrap{
+    width: 302px;
+    height: 42px;
+    margin-left: 49px;
+}
+input.code{
+    display: inline-block;
+    margin: 0;
+    width: 175px;
+}
+.codePic{
+    float: right;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    width: 100px;
+    background-size:cover;
+    cursor: pointer;
+}
+.pic1{
+    background-image: url('../img/code1.jpg');
+}
+.pic2{
+    background-image: url('../img/code2.jpg');
+}
+.pic3{
+    background-image: url('../img/code3.jpg');
+}
+.register{
+    width: 302px;
+    height: 42px;
+}
