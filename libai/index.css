@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #0f1c61;
+    color: aliceblue;
+}
+a:link{
+    color: rgba(155, 177, 196, 0.76)
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: yellow;
+}

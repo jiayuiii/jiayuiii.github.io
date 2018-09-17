@@ -1,0 +1,9 @@
+*{
+    color: #1a72d6;
+    font-size: 30px;
+    font-weight: bold;
+}
+body{
+    background-image: url('叶子.gif');
+    background-size: cover;
+}
