@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    background-color: rgba(88,90,92,1);
+}
+body{
+    background:url('../img/bg.png') no-repeat;
+    background-size: cover;
+}
+.bar-wrap{
+    position: relative;
+    height: 100%;
+    width: 634px;
+    float: right;
+    background-color: rgba(88,90,92,0.7);
+}
+input{
+    margin-bottom: 12px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 28px;
+    color:rgb(191,191,191);
+}
+
+input[name="id"],input[name="password"]{
+    width: 280px;
+    height: 50px;
+    border-bottom: 2px rgb(229, 229,229) solid;
+    transition: 0.5s;
+    text-indent: 50px;
+   
+}
+input[name="id"]::before{
+    content: "a";
+    display: inline-block;
+
+}
+input[name="id"]:focus,input[name="password"]:focus{
+    border-bottom-color:  white;
+    box-shadow: 2px 4px 8px  rgb(87 , 91, 92);
+
+}
+input[name="login"]{
+    width: 200px;
+    height: 50px;
+    background-color:rgb(191,191,191);
+    color: rgb(87 , 91, 92);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    cursor: pointer;
+}
+input[name="login"]:hover{
+    background-color: rgb(87 , 91, 92);
+    color:rgb(191,191,191);
+}
+input[name="id"]::before,input[name="password"]::before{
+    display: block; 
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+.form-wrap{
+    margin-top:60%;
+    width: 100%;
+    height: 192px;
+}
+form{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+form div{
+    position: relative;
+}
+form div i{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+.id-wrap i{
+    background: url("../img/icon.png") -70px -8px no-repeat;
+}
+.password-wrap i{
+    background: url("../img/icon.png") -8px -8px no-repeat;
+}
+.password-wrap .eye{
+    right:45px;
+    background: url("../img/icon.png") -139px -10px no-repeat;
+    cursor: pointer;
+}
+.outLogin{
+    margin-top: 80px;
+    width: 100%;
+    height: 14%;
+    text-align: center;
+}
+.outLogin p{
+    font-size: 18px;
+    font-family: Arial,'Simhei';
+    color: #fff;
+}
+.icon{
+    position: relative;
+    width: 280px;
+    display: inline-block;
+    height: 50px;
+    margin-top: 50px;
+}
+.icon div{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.icon .wechat{
+    background: url("../img/icon.png") -12px -71px no-repeat; 
+    left: 0;  
+}
+.icon .weibo{
+    background: url("../img/icon.png") -74px -71px no-repeat; 
+    left:115px;  
+}
+.icon .qq{
+    background: url("../img/icon.png") -139px -67px no-repeat; 
+    right:0;  
+}
