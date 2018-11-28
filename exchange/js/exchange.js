@@ -91,9 +91,8 @@ function getCard() {
 	data = {
 		"card1": {
 			"formId": "80",
-			"img": {
-				"img1": "/MutualAid/img/goods/手表.jpg"
-			},
+			"goodsImg":"https://www.apple.com/v/apple-watch-series-4/c/images/compare/compare_nike_large.jpg",
+			
 			"price": "140",
 			"count": 1,
 			"time": "2018-11-11",
@@ -102,8 +101,106 @@ function getCard() {
 			"userName": "杨大力",
 			"content": "Apple Watch 4手表"
 		},
-		"count": 1
+		"card2": {
+			"formId": "80",
+			"goodsImg":"https://www.apple.com/v/apple-watch-series-4/c/images/compare/compare_nike_large.jpg",
+			
+			"price": "140",
+			"count": 1,
+			"time": "2018-11-11",
+			"title": "手表",
+			"type": "数码用品",
+			"userName": "杨大力",
+			"content": "Apple Watch 4手表"
+		},
+		"card3": {
+			"formId": "80",
+			"goodsImg":"https://www.apple.com/v/apple-watch-series-4/c/images/compare/compare_nike_large.jpg",
+			
+			"price": "140",
+			"count": 1,
+			"time": "2018-11-11",
+			"title": "手表",
+			"type": "数码用品",
+			"userName": "杨大力",
+			"content": "Apple Watch 4手表"
+		},
+		"card4": {
+			"formId": "80",
+			"goodsImg":"https://www.apple.com/v/apple-watch-series-4/c/images/compare/compare_nike_large.jpg",
+			
+			"price": "140",
+			"count": 1,
+			"time": "2018-11-11",
+			"title": "手表",
+			"type": "数码用品",
+			"userName": "杨大力",
+			"content": "Apple Watch 4手表"
+		},
+		"card5": {
+			"formId": "80",
+			"goodsImg":"https://www.apple.com/v/apple-watch-series-4/c/images/compare/compare_nike_large.jpg",
+			
+			"price": "140",
+			"count": 1,
+			"time": "2018-11-11",
+			"title": "手表",
+			"type": "数码用品",
+			"userName": "杨大力",
+			"content": "Apple Watch 4手表"
+		},
+		"card6": {
+			"formId": "80",
+			"goodsImg":"https://www.apple.com/v/apple-watch-series-4/c/images/compare/compare_nike_large.jpg",
+			
+			"price": "140",
+			"count": 1,
+			"time": "2018-11-11",
+			"title": "手表",
+			"type": "数码用品",
+			"userName": "杨大力",
+			"content": "Apple Watch 4手表"
+		},
+		"card7": {
+			"formId": "80",
+			"goodsImg":"https://www.apple.com/v/apple-watch-series-4/c/images/compare/compare_nike_large.jpg",
+			
+			"price": "140",
+			"count": 1,
+			"time": "2018-11-11",
+			"title": "手表",
+			"type": "数码用品",
+			"userName": "杨大力",
+			"content": "Apple Watch 4手表"
+		},
+		"card8": {
+			"formId": "80",
+			"goodsImg":"https://www.apple.com/v/apple-watch-series-4/c/images/compare/compare_nike_large.jpg",
+			
+			"price": "140",
+			"count": 1,
+			"time": "2018-11-11",
+			"title": "手表",
+			"type": "数码用品",
+			"userName": "杨大力",
+			"content": "Apple Watch 4手表"
+		},
+		"card9": {
+			"formId": "80",
+			"goodsImg":"https://www.apple.com/v/apple-watch-series-4/c/images/compare/compare_nike_large.jpg",
+			
+			"price": "140",
+			"count": 1,
+			"time": "2018-11-11",
+			"title": "手表",
+			"type": "数码用品",
+			"userName": "杨大力",
+			"content": "Apple Watch 4手表"
+		},
+
+		"count": 9
 	}
+	showCard(data);
 	let type = $(".body .tag-nav li.clicked").index()+"";
 	let sort = $(".body .sort-nav li.clicked").index()+"";
 	switch(sort){
