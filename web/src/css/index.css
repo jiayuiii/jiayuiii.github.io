@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 5vw;
+}
+
+body {
+  min-width: 320px;
+}
+
+.header {
+  width: 100vw;
+  height: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: #03a9f7;
+}
+
+.header .card {
+  width: 80vw;
+  height: 36vw;
+  border-top-left-radius: 3vw;
+  border-top-right-radius: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: gold;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .card .content {
+  width: 70vw;
+  height: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .card .content .userInfo, .header .card .content .aPoint {
+  width: 70vw;
+  height: 13vw;
+}
+
+.header .card .content .userInfo .avatar {
+  width: 13vw;
+  height: 13vw;
+  float: left;
+  border-radius: 50%;
+  background-color: #03a9f7;
+}
+
+.header .card .content .userInfo .msg {
+  width: 50vw;
+  height: 13vw;
+  float: left;
+  margin-left: 1vw;
+}
+
+.header .card .content .userInfo .msg > div {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.header .card .content .userInfo .msg .edu-wrap .icon-wrap {
+  width: 5vw;
+  height: 5vw;
+  float: left;
+  border: 0.5vw solid white;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.header .card .content .userInfo .msg .edu-wrap .icon-wrap div {
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  line-height: 5vw;
+}
+
+.header .card .content .userInfo .msg .edu-wrap .edu {
+  width: 15vw;
+  height: 5vw;
+  float: left;
+  margin-left: -3vw;
+  border: 0.5vw solid white;
+  border-left: none;
+  border-top-right-radius: 3vw;
+  border-bottom-right-radius: 3vw;
+  color: #ffffff;
+  font-size: 4vw;
+  text-indent: 1em;
+  line-height: 5vw;
+}
+
+.header .card .content .userInfo .msg .edu-wrap .score-bar {
+  height: 6vw;
+  width: 20vw;
+  float: left;
+  margin-left: 1vw;
+}
+
+.header .card .content .userInfo .msg .edu-wrap .score-bar .bar-wrap {
+  height: 1vw;
+  width: 16vw;
+  margin: 1vw 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 0.5vw;
+}
+
+.header .card .content .userInfo .msg .edu-wrap .score-bar .bar-wrap .bar {
+  height: 100%;
+  width: 60%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border-radius: 0.5vw;
+  background-color: #ffffff;
+}
+
+.header .card .content .userInfo .msg .edu-wrap .score-bar .score {
+  color: #ffffff;
+  font-size: 3vw;
+  line-height: 3vw;
+}
+
+.header .card .content .aPoint {
+  color: #ffffff;
+}
+
+.header .card .content .aPoint .num {
+  height: 9vw;
+  font-size: 8vw;
+  line-height: 9vw;
+}
+
+.header .card .content .aPoint .text {
+  float: left;
+  height: 4vw;
+  font-size: 3vw;
+  line-height: 3vw;
+}
+
+.header .card .content .aPoint i {
+  float: left;
+  font-size: 2vw;
+  line-height: 3vw;
+}
+
+.header .card .help {
+  font-size: 5vw;
+  position: absolute;
+  right: 3vw;
+  top: 3vw;
+  color: #ffffff;
+}
+
+.header .card .help ul {
+  width: 20vw;
+  height: 24vw;
+  position: absolute;
+  border-radius: 0.5vw;
+  top: 6vw;
+  right: 0;
+  background-color: #ffffff;
+}
+
+.header .card .help ul::before {
+  width: 0;
+  height: 0;
+  border: 1vw solid transparent;
+  border-bottom: 1vw solid #ffffff;
+  content: "";
+  position: absolute;
+  top: -2vw;
+  right: 2vw;
+}
+
+.header .card .help ul li {
+  width: 100%;
+  height: 33%;
+  color: #727272;
+}
+
+.header .card .help ul li:hover {
+  color: #ffffff;
+  background-color: rgba(114, 114, 114, 0.2);
+}
+
+.header .card .help ul li div {
+  width: 100%;
+  height: 100%;
+  line-height: 8vw;
+  font-size: 3vw;
+  text-align: center;
+}

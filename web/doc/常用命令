@@ -1,0 +1,38 @@
+npm init——初始化
+
+npm install——安装插件
+
+npm install plugname -g——全局安装
+
+npm install plugname@2.3.0——安装具体某个版本的插件
+
+npm update——更新插件
+
+npm uninstall——卸载插件
+
+
+
+常用dos命令
+
+cd 进入某个目录
+
+cd.. 返回上一级
+
+dir 查看列表
+
+cls 清除屏幕
+
+del name 删除文件
+
+md name 新建目录名
+
+rd name 删除目录名
+
+copy con name.txt 新建文件
+
+del name.txt  删除文件
+--------------------- 
+作者：太羽 
+来源：CSDN 
+原文：https://blog.csdn.net/zchcode/article/details/51556699 
+版权声明：本文为博主原创文章，转载请附上博文链接！

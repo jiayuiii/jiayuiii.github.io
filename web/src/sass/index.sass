@@ -1,0 +1,166 @@
+$bgc: rgb(3,169,247)
+$msg-color: #ffffff
+*
+    padding: 0
+    margin: 0
+    list-style: none
+    font-size: 5vw
+body
+    min-width: 320px
+.header
+    width: 100vw
+    height: 40vw
+    display: flex
+    justify-content: center 
+    align-items: flex-end
+    background-color: $bgc
+    .card
+        width: 80vw
+        height: 36vw
+        border-top-left-radius: 3vw
+        border-top-right-radius: 3vw
+        display: flex
+        position: relative
+        background-color: gold
+        flex-direction: column
+        justify-content: space-around
+        align-items: center
+        .content
+            width: 70vw
+            height: 30vw
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .userInfo,.aPoint
+                width: 70vw
+                height: 13vw
+            .userInfo
+                .avatar
+                    width: 13vw
+                    height: 13vw
+                    float: left
+                    border-radius: 50%
+                    background-color: $bgc
+                .msg
+                    width: 50vw
+                    height: 13vw
+                    float: left
+                    margin-left: 1vw
+                    &>div
+                        width: 100%
+                        height: 50%
+                        overflow: hidden
+                        white-space: nowrap
+                        text-overflow: ellipsis
+                    .edu-wrap
+                        .icon-wrap
+                            width: 5vw
+                            height: 5vw
+                            float: left
+                            border: 0.5vw solid white
+                            border-radius: 50%
+                            color: $msg-color
+                            div
+                                font-size: 4vw
+                                font-weight: bold
+                                text-align: center
+                                line-height: 5vw
+                        .edu
+                            width: 15vw
+                            height: 5vw
+                            float: left
+                            margin-left: -3vw
+                            border: 0.5vw solid white
+                            border-left: none
+                            border-top-right-radius: 3vw
+                            border-bottom-right-radius: 3vw
+                            color: $msg-color
+                            font-size: 4vw
+                            text-indent: 1em
+                            line-height: 5vw
+                        .score-bar
+                            height: 6vw
+                            width: 20vw
+                            float: left
+                            margin-left: 1vw
+                            .bar-wrap
+                                height: 1vw
+                                width: 16vw
+                                margin: 1vw 0
+                                background-color: rgba(255,255,255,.6) 
+                                //这里要另外设置透明度
+                                border-radius: 0.5vw
+                                .bar
+                                    height: 100%
+                                    width: 60%
+                                    transition: 0.6s
+                                    border-radius: 0.5vw
+                                    background-color: $msg-color
+                            .score
+                                color: $msg-color
+                                font-size: 3vw
+                                line-height: 3vw
+            .aPoint
+                color: $msg-color
+                .num
+                    height: 9vw
+                    font-size: 8vw
+                    line-height: 9vw
+                .text
+                    float: left
+                    height: 4vw
+                    font-size: 3vw    
+                    line-height: 3vw
+                i
+                    float: left
+                    font-size: 2vw
+                    line-height: 3vw
+        .help
+            font-size: 5vw
+            position: absolute
+            right: 3vw
+            top: 3vw
+            color: $msg-color
+            ul
+                width: 20vw
+                height: 24vw
+                position: absolute
+                border-radius: 0.5vw
+                top: 6vw
+                right: 0
+                background-color: $msg-color
+                &::before
+                    width: 0
+                    height: 0
+                    border: 1vw solid transparent
+                    border-bottom: 1vw solid $msg-color 
+                    content: ""
+                    position: absolute
+                    top: -2vw
+                    right: 2vw
+                li
+                    width: 100%
+                    height: 33%
+                    color: rgb(114,114,114)
+                    &:hover
+                        color: #ffffff
+                        background-color: rgba(114,114,114,.2)
+                    div
+                        width: 100%
+                        height: 100%
+                        line-height: 8vw
+                        font-size: 3vw
+                        text-align: center
+                .line
+                   
+                
+
+
+
+                        
+
+
+
+
+        
+
